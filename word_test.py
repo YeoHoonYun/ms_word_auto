@@ -1,12 +1,11 @@
 import json
-from pathlib import Path
-#pip install python-docx
 from docx import Document
 from pandas import read_excel
 
 base_path = "base/"
 file_path = "result/"
 info_list = []
+
 # my_file = Path(file_path)
 # with open("info_list.json","r", encoding="utf-8") as f:
 #     info_list = json.loads(f.read())
